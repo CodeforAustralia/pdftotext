@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('pdf');
+    return view('welcome');
 });
 
 Route::get('/pdf', 'PdfController@index')->name('pdf');
